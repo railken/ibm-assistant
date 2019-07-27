@@ -1,0 +1,24 @@
+{
+    "name": "railken/ibm-assistant",
+    "type": "library",
+    "keywords": ["ibm", "assistant", "watson"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "vlucas/phpdotenv": "^3.4",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.*"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Railken\\Ibm\\Assistant\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "Railken\\Ibm\\Assistant\\Tests\\": "tests/" 
+        }
+    }
+}
